@@ -17,6 +17,7 @@
 
 df$country[df$country == "Bahamas, The"] <- "Bahamas" 
 df$country[df$country == "Belgium-Luxembourg"] <- "Belgium"
+df$country[df$country == "Belgium-Luxembourg (to 1997)"] <- "Belgium"
 df$country[df$country == "Bolivia (Plurinational State of)"] <- "Bolivia"
 df$country[df$country == "Bosnia-Herzegovina"] <- "Bosnia and Herzegovina"
 df$country[df$country == "Bosnia and Herz."] <- "Bosnia and Herzegovina" 
